@@ -5,3 +5,5 @@ const SeasonDisplay = () => {
       <div>SeasonDisplay is linked!</div>
     );
 };
+
+export default SeasonDisplay;
