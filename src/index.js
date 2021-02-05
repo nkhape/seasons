@@ -19,6 +19,14 @@ class App extends React.Component {
       }
       );
   }
+
+    componentDidMount () {
+      console.log("The component was mounted!");
+    }
+
+    componentDidUpdate() {
+      console.log("The component was just updated! Chickity check it out!")
+    }
   // React makes us always define "render"
   render() {
     if (this.state.errorMessage && !this.state.lat) {
