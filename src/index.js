@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import SeasonDisplay from './SeasonDisplay';
 import "semantic-ui-css/semantic.min.css";
+import Spinner from './Spinner';
 
 
 class App extends React.Component {
@@ -24,7 +25,7 @@ class App extends React.Component {
       return <SeasonDisplay lat={this.state.lat} />;
     }
 
-    return <div>Loading <i className="spinner loading icon"></i> </div>;
+    return <Spinner />;
   }
 }
 

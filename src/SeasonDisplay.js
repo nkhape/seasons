@@ -5,7 +5,7 @@ import React from 'react';
 const seasonConfig = {
   summer: {
     text: 'I need me some vitamin sea ☀️🌊',
-    iconName: 'sun outline'
+    iconName: 'sun'
   },
   winter: {
     text: 'Ice, ice, baby ❄️',
